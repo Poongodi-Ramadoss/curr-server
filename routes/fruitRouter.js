@@ -1,6 +1,6 @@
 const express = require("express");
 const fruitRouter = express.Router();
-const fruits = require("../controllers/fruits");
+const fruits = require("../controllers/fruits.js");
 
 fruitRouter.get("/", fruits.index);
 

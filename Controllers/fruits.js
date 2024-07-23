@@ -1,4 +1,4 @@
-const Fruit = require("../models/Fruit");
+const Fruit = require("../models/Fruit.js");
 
 const index = async (req, res) => {
   console.log("controller hit");
