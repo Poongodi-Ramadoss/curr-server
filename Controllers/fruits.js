@@ -1,7 +1,7 @@
 const Fruit = require("../models/Fruit");
 
 const index = async (req, res) => {
-  console.log("hit");
+  console.log("controller hit");
   // showAll
   try {
     const fruits = await Fruit.showAll();

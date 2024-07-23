@@ -11,6 +11,7 @@ class Fruit {
   }
 
   static showAll() {
+    console.log("model hit");
     return fruits.map((fruit) => new Fruit(fruit));
   }
 

@@ -9,6 +9,7 @@ const fruitRouter = require("./routes/fruitRouter");
 app.use(cors()); //middleware // its going to hit every request
 app.use(express.json());
 app.use(logger);
+
 app.use("/fruits", fruitRouter);
 
 app.get("/", (req, res) => {
